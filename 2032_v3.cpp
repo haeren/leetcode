@@ -25,7 +25,7 @@ public:
         for (auto iter : freq)
         {
             if (iter.second >= 2)
-            result.push_back(iter.first);
+                result.push_back(iter.first);
         }
 
         return result;
